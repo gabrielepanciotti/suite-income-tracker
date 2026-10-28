@@ -1,0 +1,8 @@
+# Generic example for a published container image.
+services:
+  income-tracker:
+    image: ghcr.io/example/income-tracker:latest
+    environment:
+      DATABASE_URL: postgresql+asyncpg://app_user:example-not-a-secret@db:5432/income_tracker
+    ports:
+      - "8000:8000"

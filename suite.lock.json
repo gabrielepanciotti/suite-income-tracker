@@ -1,0 +1,27 @@
+{
+  "assets": [
+    "gitignore",
+    "ruff",
+    "brain-wiki",
+    "deploy",
+    "frontend"
+  ],
+  "files": {
+    "deploy/Caddyfile": "sha256:1183f0847bdbd8549a42c569c97f56e358aa6422d5e0ee5a0717a36e35d57e09",
+    "deploy/backend.Dockerfile": "sha256:141bd875b3e9e4958928693b650f90b51cc236e178c652c9ff43bd78b224c2dc",
+    "deploy/backend.Dockerfile.dockerignore": "sha256:e97538efc2ff709bfe889bc22574929d42b4e25b55e874fae804d01a7da03604",
+    "deploy/build.sh": "sha256:5d10269f971cf27da183f23c9f46e00e55e2f604331a05ebf8df7cbb1ca21cf8",
+    "deploy/compose.sh": "sha256:bac790dfcd501449bd46b0f9b03f5eb914acdd1219b839fdc8b11ac04fd649ec",
+    "deploy/docker-compose.prod.yml": "sha256:35bfe135953b3c431c2b2c457923dd7fd29bd15e6462fcfe5ca64cf5f4a9a21f",
+    "deploy/docker-compose.yml": "sha256:7099761f8a7674970577896e60c99644d07bd270076d8de42f2062bb7bf9f26b",
+    "deploy/prebuild.sh": "sha256:e14ced037f81f7335324b33949cb8dd71bf655ee33434b56a4ded63205c78d30",
+    "ruff.toml": "sha256:cf28c882590d07b190f9a6a18049f53d66956c1e58ef4535d0ac23d078c02fb3"
+  },
+  "node": "incomeTracker",
+  "packages": [
+    "suite-backend-core",
+    "@suite/design-system",
+    "@suite/i18n"
+  ],
+  "profile": "app"
+}
